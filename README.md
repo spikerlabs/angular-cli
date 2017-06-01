@@ -1,4 +1,4 @@
-# Minimal docker image with angular4 cli preinstalled
+# Minimal docker image with angular4 cli preinstalled.
 
 ## Installation ##
 

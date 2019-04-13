@@ -9,11 +9,11 @@ docker pull spikerlabs/angular-cli
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t angular-cli github.com/spikerlabs/angular-cli
+docker build -t spikerlabs/angular-cli github.com/spikerlabs/angular-cli
 ```
 
 ## Usage ##
 
 ```
-docker run -it --rm spikerlabs/angular-cli /bin/bash
+docker run -it --rm spikerlabs/angular-cli sh
 ```

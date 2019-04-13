@@ -9,7 +9,7 @@ docker pull spikerlabs/angular-cli
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
-docker build -t scala-sbt github.com/spikerlabs/angular-cli
+docker build -t angular-cli github.com/spikerlabs/angular-cli
 ```
 
 ## Usage ##

@@ -1,11 +1,11 @@
-# Minimal docker image with angular4 cli preinstalled.
+# Minimal docker image with angular cli preinstalled.
 
 ## Installation ##
 
 1. Install [Docker](https://www.docker.com)
 2. Pull [automated build](https://hub.docker.com/r/spikerlabs/angular4-cli/) from public [Docker Hub Registry](https://hub.docker.com):
 ```
-docker pull spikerlabs/angular4-cli
+docker pull spikerlabs/angular-cli
 ```
 Alternatively, you can build an image from Dockerfile:
 ```
@@ -15,7 +15,7 @@ docker build -t scala-sbt github.com/spikerlabs/angular4-cli
 ## Usage ##
 
 ```
-docker run -it --rm spikerlabs/angular4-cli /bin/bash
+docker run -it --rm spikerlabs/angular-cli /bin/bash
 ```
 
 ## Version Notice ##
